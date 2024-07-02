@@ -1,0 +1,10 @@
+C:\Users\DELL\source\repos\pvz\bin\Debug\pvz.exe.config
+C:\Users\DELL\source\repos\pvz\bin\Debug\pvz.exe
+C:\Users\DELL\source\repos\pvz\bin\Debug\pvz.pdb
+C:\Users\DELL\source\repos\pvz\obj\Debug\pvz.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\pvz\obj\Debug\pvz.CAdvImag.resources
+C:\Users\DELL\source\repos\pvz\obj\Debug\pvz.Properties.Resources.resources
+C:\Users\DELL\source\repos\pvz\obj\Debug\pvz.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\pvz\obj\Debug\pvz.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\pvz\obj\Debug\pvz.exe
+C:\Users\DELL\source\repos\pvz\obj\Debug\pvz.pdb
