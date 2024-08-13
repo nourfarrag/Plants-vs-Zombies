@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,11 +27,7 @@ namespace pvz
     {
         public int x, y;
         public int w, h;
-
         public Color cl;
-
-
-
     }
     public class CImActor
     {
@@ -148,7 +144,7 @@ namespace pvz
 
                 for (int i = 0; i < shoplist.Count; i++)
                 {
-                    if (e.X >= shoplist[i].X && e.X <= shoplist[i].X + shoplist[0].img[0].Width + 10 && e.Y >= shoplist[i].Y && e.Y <= shoplist[i].Y + shoplist[i].img[0].Height&& val >= shoplist[i].price) 
+                    if (e.X >= shoplist[i].X && e.X <= shoplist[i].X + shoplist[0].img[0].Width + 10 && e.Y >= shoplist[i].Y && e.Y <= shoplist[i].Y + shoplist[i].img[0].Height)//&& val >= shoplist[i].price) 
                     {
                         pos = i;
                         xOld = e.X;
@@ -1219,7 +1215,7 @@ namespace pvz
             Bitmap img = new Bitmap("PvZ/snowpea.png");
             img.MakeTransparent(img.GetPixel(0, 0));
             pnn2.img.Add(img);
-            img = new Bitmap("PvZ/splashgreen.png");
+           
             img.MakeTransparent(img.GetPixel(0, 0));
             pnn2.img.Add(img);
 
@@ -1238,7 +1234,7 @@ namespace pvz
             Bitmap img = new Bitmap("PvZ/pea.png");
             img.MakeTransparent(img.GetPixel(0, 0));
             pnn2.img.Add(img);
-             img = new Bitmap("PvZ/splashgreen.png");
+           
             img.MakeTransparent(img.GetPixel(0, 0));
             pnn2.img.Add(img);
             pnn2.X = lpeashooter[lpeashooter.Count - 1].X + 25;
